@@ -431,8 +431,8 @@
                 "margin": "8px 0"
               },
               ".navbar-logo img": {
-                "max-width": "400px",
-                "min-height": "64px",
+                "max-width": "300px",
+                "min-height": "48px",
                 "object-fit": "contain",
                 "border-radius": "10px !important"
               },
@@ -1493,8 +1493,8 @@
                 "margin": "8px 0"
               },
               ".navbar-logo img": {
-                "max-width": "400px",
-                "min-height": "64px",
+                "max-width": "300px",
+                "min-height": "48px",
                 "object-fit": "contain",
                 "border-radius": "10px !important"
               },
@@ -2474,8 +2474,8 @@
                 "margin": "8px 0"
               },
               ".navbar-logo img": {
-                "max-width": "400px",
-                "min-height": "64px",
+                "max-width": "300px",
+                "min-height": "48px",
                 "object-fit": "contain",
                 "border-radius": "10px !important"
               },
@@ -3622,8 +3622,8 @@
                 "margin": "8px 0"
               },
               ".navbar-logo img": {
-                "max-width": "400px",
-                "min-height": "64px",
+                "max-width": "300px",
+                "min-height": "48px",
                 "object-fit": "contain",
                 "border-radius": "10px !important"
               },
@@ -4685,8 +4685,8 @@
                 "margin": "8px 0"
               },
               ".navbar-logo img": {
-                "max-width": "400px",
-                "min-height": "64px",
+                "max-width": "300px",
+                "min-height": "48px",
                 "object-fit": "contain",
                 "border-radius": "10px !important"
               },
@@ -5780,8 +5780,8 @@
                 "margin": "8px 0"
               },
               ".navbar-logo img": {
-                "max-width": "400px",
-                "min-height": "64px",
+                "max-width": "300px",
+                "min-height": "48px",
                 "object-fit": "contain",
                 "border-radius": "10px !important"
               },
