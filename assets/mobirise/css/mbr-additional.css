@@ -5886,6 +5886,158 @@ img {
 .cid-ulDcz8iOsT .mbr-section-btn .btn {
   min-width: 50px;
 }
+.cid-umbYfhXVOv {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-umbYfhXVOv .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-umbYfhXVOv .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 992px) {
+  .cid-umbYfhXVOv .container {
+    padding: 0 25px;
+  }
+}
+.cid-umbYfhXVOv .row {
+  justify-content: center;
+}
+.cid-umbYfhXVOv .title-wrapper .mbr-section-title {
+  margin-bottom: 50px;
+}
+.cid-umbYfhXVOv .item:first-child .item-wrapper {
+  border-top: 2px solid #e1e1e1;
+}
+.cid-umbYfhXVOv .item .item-wrapper {
+  padding: 22px 0;
+  border-bottom: 2px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+  border-radius: 0 !important;
+}
+.cid-umbYfhXVOv .item .item-wrapper:hover .item-img img,
+.cid-umbYfhXVOv .item .item-wrapper:focus .item-img img {
+  transform: scale(1.05) translateX(2%);
+}
+@media (max-width: 992px) {
+  .cid-umbYfhXVOv .item .item-wrapper {
+    display: block;
+  }
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-img {
+  display: block;
+  overflow: hidden;
+  min-width: 330px;
+}
+@media (max-width: 992px) {
+  .cid-umbYfhXVOv .item .item-wrapper .item-img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    min-width: auto;
+  }
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-img img {
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05) translateX(0);
+}
+@media (max-width: 992px) {
+  .cid-umbYfhXVOv .item .item-wrapper .item-img img {
+    height: 350px;
+  }
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content {
+  width: 100%;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .cid-umbYfhXVOv .item .item-wrapper .item-content {
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .cid-umbYfhXVOv .item .item-wrapper .item-content {
+    display: block;
+  }
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .desc-wrap {
+  display: block;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .desc-wrap:hover .item-desc,
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .desc-wrap:focus .item-desc {
+  background-color: #cbc97a;
+  color: #ffffff;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .desc-wrap .item-desc {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #f7f7f7;
+  display: inline-flex;
+  letter-spacing: .05em;
+  transition: all 0.3s ease-in-out;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .item-subtitle {
+  margin-bottom: 10px;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .item-title {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .content-wrap .item-price {
+  margin: 0;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .icon-wrapper {
+  display: block;
+}
+@media (max-width: 768px) {
+  .cid-umbYfhXVOv .item .item-wrapper .item-content .icon-wrapper {
+    margin-top: 20px;
+  }
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .icon-wrapper:hover .mbr-iconfont,
+.cid-umbYfhXVOv .item .item-wrapper .item-content .icon-wrapper:focus .mbr-iconfont {
+  box-shadow: inset 90px 0 0 0 #cbc97a !important;
+  color: #ffffff;
+}
+.cid-umbYfhXVOv .item .item-wrapper .item-content .icon-wrapper .mbr-iconfont {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #f0f0f0;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.cid-umbYfhXVOv .mbr-section-title {
+  color: #000000;
+}
+.cid-umbYfhXVOv .item-title {
+  color: #686868;
+}
+.cid-umbYfhXVOv .item-desc {
+  color: #3a7b98;
+}
+.cid-umbYfhXVOv .item-subtitle {
+  color: #000000;
+}
+.cid-umbYfhXVOv .item-price {
+  color: #3a7b98;
+}
 .cid-ulDb5xOBHm {
   padding-top: 2rem;
   padding-bottom: 2rem;

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HoloGen",
-    "currentPage": "contact.html",
+    "currentPage": "positions.html",
     "theme": {
       "name": "divem5",
       "title": "DiveM5",
@@ -62,7 +62,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 55,
+    "uniqCompNum": 56,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png"
   },
@@ -1294,7 +1294,7 @@
     "concept.html": {
       "settings": {
         "title": "Concept",
-        "order": "6"
+        "order": "4"
       },
       "components": [
         {
@@ -2662,11 +2662,11 @@
           "_sourceTheme": "divem5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features02 divem5\" group=\"Features\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Card Icon\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" value=\"#aaa84e\" name=\"icon\" condition=\"showIcon\" selected>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Strategic objectives</b></h2>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-8\">\n                <div class=\"items\">\n                    <div class=\"item features-without-image item-mb\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-rocket mobi-mbri\"></span>\n                                </div>\n                                <h4 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title, .icon-wrapper\" mbr-if=\"showCardTitle\"><b>Train the next generation of multidisciplinary scientists</b></h4>\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">that will be equipped with the skills to exploit the latest biomolecular technologies with which to grapple with the current and future societal challenges.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"item features-without-image item-mb\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-like mobi-mbri\"></span>\n                                </div>\n                                <h4 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title, .icon-wrapper\" mbr-if=\"showCardTitle\"><b>Strengthen both European industry and academia</b></h4>\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">with a cohort of talented, closely-knit researchers with the attributes to become international leaders in their chosen fields.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"item features-without-image item-mb\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-contact-form mobi-mbri\"></span>\n                                </div>\n                                <h4 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title, .icon-wrapper\" mbr-if=\"showCardTitle\"><b>Produce a large number of high-profile publications</b></h4>\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n                                    and stimulate future research to create future world-leading scholars and advance the field of hologenomics beyond the current scope of the project.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"item features-without-image item-mb\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <div class=\"icon-wrapper\" mbr-if=\"showIcon\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-share mobi-mbri\"></span>\n                                </div>\n                                <h4 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title, .icon-wrapper\" mbr-if=\"showCardTitle\"><b>Enable long-term transfer of technological gains</b></h4>\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">to and from industry partners, leading to development of new products and services.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "ulGmksNGvW",
+          "_anchor": "features02-14",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features02-14"
+          "_params": {}
         },
         {
           "alias": false,
@@ -2871,7 +2871,7 @@
     "consortium.html": {
       "settings": {
         "title": "Consortium",
-        "order": "5"
+        "order": "3"
       },
       "components": [
         {
@@ -4019,7 +4019,7 @@
     "trainees.html": {
       "settings": {
         "title": "Trainees",
-        "order": "3"
+        "order": "1"
       },
       "components": [
         {
@@ -5082,7 +5082,7 @@
     "positions.html": {
       "settings": {
         "title": "Open positions",
-        "order": "1"
+        "order": "5"
       },
       "components": [
         {
@@ -5877,6 +5877,187 @@
             },
             "& when (@fullWidth)": {
               ".container-fluid": {
+                "padding": "0 45px",
+                "@media (max-width: 992px)": {
+                  "padding": "0 25px"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".container": {
+                "padding": "0 25px"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".title-wrapper": {
+              ".mbr-section-title": {
+                "margin-bottom": "50px"
+              }
+            },
+            ".item": {
+              "&:first-child": {
+                ".item-wrapper": {
+                  "border-top": "2px solid @border"
+                }
+              },
+              ".item-wrapper": {
+                "padding": "22px 0",
+                "border-bottom": "2px solid @border",
+                "display": "flex",
+                "align-items": "center",
+                "border-radius": "0 !important",
+                "&:hover, &:focus": {
+                  ".item-img img": {
+                    "transform": "scale(1.05) translateX(2%)"
+                  }
+                },
+                "@media (max-width: 992px)": {
+                  "display": "block"
+                },
+                ".item-img": {
+                  "display": "block",
+                  "overflow": "hidden",
+                  "min-width": "330px",
+                  "@media (max-width: 992px)": {
+                    "max-width": "100%",
+                    "margin-bottom": "20px",
+                    "min-width": "auto"
+                  },
+                  "img": {
+                    "height": "200px",
+                    "object-fit": "cover",
+                    "transition": "all 0.3s ease-in-out",
+                    "transform": "scale(1.05) translateX(0)",
+                    "@media (max-width: 992px)": {
+                      "height": "350px"
+                    }
+                  }
+                },
+                ".item-content": {
+                  "width": "100%",
+                  "padding-left": "40px",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "space-between",
+                  "@media (max-width: 992px)": {
+                    "padding-left": "0"
+                  },
+                  "@media (max-width: 768px)": {
+                    "display": "block"
+                  },
+                  ".content-wrap": {
+                    ".desc-wrap": {
+                      "display": "block",
+                      "&:hover, &:focus": {
+                        ".item-desc": {
+                          "background-color": "@activeBg",
+                          "color": "@active"
+                        }
+                      },
+                      ".item-desc": {
+                        "margin-bottom": "10px",
+                        "padding": "0 10px",
+                        "background-color": "@descBg",
+                        "display": "inline-flex",
+                        "letter-spacing": ".05em",
+                        "transition": "all 0.3s ease-in-out"
+                      }
+                    },
+                    ".item-subtitle": {
+                      "margin-bottom": "10px"
+                    },
+                    ".item-title": {
+                      "margin-bottom": "10px",
+                      "cursor": "pointer"
+                    },
+                    ".item-price": {
+                      "margin": "0"
+                    }
+                  },
+                  ".icon-wrapper": {
+                    "display": "block",
+                    "@media (max-width: 768px)": {
+                      "margin-top": "20px"
+                    },
+                    "&:hover, &:focus": {
+                      ".mbr-iconfont": {
+                        "box-shadow": "inset 90px 0 0 0 @activeBg !important",
+                        "color": "@active"
+                      }
+                    },
+                    ".mbr-iconfont": {
+                      "width": "90px",
+                      "height": "90px",
+                      "display": "flex",
+                      "justify-content": "center",
+                      "align-items": "center",
+                      "color": "@icon",
+                      "background-color": "@iconBg",
+                      "font-size": "22px",
+                      "transition": "all 0.3s ease-in-out"
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".item-title": {
+              "color": "#686868"
+            },
+            ".item-desc": {
+              "color": "#3a7b98"
+            },
+            ".item-subtitle": {
+              "color": "#000000"
+            },
+            ".item-price": {
+              "color": "#3a7b98"
+            }
+          },
+          "_name": "features03",
+          "_sourceTheme": "divem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features03 divem5\" group=\"Features\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Card Price\" name=\"showPrice\" checked>\n        <input type=\"checkbox\" title=\"Card Description\" name=\"showDesc\" checked>\n        <input type=\"color\" title=\"Description BG\" value=\"#f7f7f7\" name=\"descBg\" condition=\"showDesc\" selected>\n        <input type=\"checkbox\" title=\"Card Icon\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" value=\"#000000\" name=\"icon\" condition=\"showIcon\" selected>\n        <input type=\"color\" title=\"Icon BG\" value=\"#f0f0f0\" name=\"iconBg\" condition=\"showIcon\" selected>\n        <input type=\"color\" title=\"Active Bg\" value=\"#cbc97a\" name=\"activeBg\" selected>\n        <input type=\"color\" title=\"Active Color\" value=\"#ffffff\" name=\"active\" selected>\n        <input type=\"color\" title=\"Border Color\" value=\"#e1e1e1\" name=\"border\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"></h2>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"item features-image col-12\">\n                <div class=\"item-wrapper\">\n                    <a href=\"#\" class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/hologene-condensed-1144x568.png\" alt=\"Mobirise Website Builder\">\n                    </a>\n                    <div class=\"item-content\">\n                        <div class=\"content-wrap\">\n                            <a class=\"desc-wrap\" mbr-if=\"showDesc\">\n                                <p class=\"item-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-desc\">KU Leuven</p>\n                            </a>\n                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showSubtitle\"><b>Investigating the interplay between metacommunity structure and the composition of synthetic gut microbial communities</b></h5>\n                            <h4 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                                <b><i>Main supervisor:</i></b> Karoline Faust</h4>\n                            <p class=\"item-price mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-price\" mbr-if=\"showPrice\">\n                                <b>Deadline: 15/09/2024</b></p>\n                        </div>\n                        <a href=\"https://www.kuleuven.be/personeel/jobsite/jobs/60342371?lang=en\" class=\"icon-wrapper\" mbr-if=\"showIcon\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-plus mobi-mbri\" style=\"color: rgb(58, 123, 152); fill: rgb(58, 123, 152);\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            \n            \n            \n        </div>\n    </div>\n</section>",
+          "_cid": "umbYfhXVOv",
+          "_anchor": "features03-1j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
                 "padding": "0 40px",
                 "@media (max-width: 992px)": {
                   "padding": "0 20px"
@@ -5966,7 +6147,7 @@
           },
           "_name": "features05",
           "_sourceTheme": "placem5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features05 placem5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/placem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/placem5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12\">\n                <div class=\"text-wrapper\">\n                    <div class=\"text-wrap\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrap\">\n                            Open positions will soon be displayed here. <br>Stay tuned.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-7\">\n                <div class=\"items-wrapper\">\n                    \n                    <div class=\"item features-without-image active\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">\n                                    We are about to open 11 predoctoral positions to conduct hologenomic research on a variety of topics.</p>\n                            </div>\n                        </div>\n                    </div><div class=\"item features-without-image\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">\n                                    As job positions are released by HoloGen partners, their short descriptions and relevant links will be displayed here,.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features05 placem5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/placem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/placem5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12\">\n                <div class=\"text-wrapper\">\n                    <div class=\"text-wrap\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrap\">\n                            More positions will soon be displayed here. <br>Stay tuned.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-7\">\n                <div class=\"items-wrapper\">\n                    \n                    <div class=\"item features-without-image active\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">\n                                    We are about to open 11 predoctoral positions to conduct hologenomic research on a variety of topics.</p>\n                            </div>\n                        </div>\n                    </div><div class=\"item features-without-image\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"card-box\">\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">\n                                    As job positions are released by HoloGen partners, their short descriptions and relevant links will be displayed here,.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "ulDb5xOBHm",
           "_anchor": "features05-n",
           "_protectedParams": [],
@@ -6177,7 +6358,7 @@
     "events.html": {
       "settings": {
         "title": "Events",
-        "order": "2"
+        "order": "6"
       },
       "components": [
         {
@@ -7286,7 +7467,7 @@
     "supervisors.html": {
       "settings": {
         "title": "Supervisors",
-        "order": "4"
+        "order": "2"
       },
       "components": [
         {
@@ -8424,11 +8605,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "ulGqVvRoyP",
+          "_anchor": "footer01-1b",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer01-1b"
+          "_params": {}
         }
       ]
     },
@@ -9103,11 +9284,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "ulGqVuzDNE",
+          "_anchor": "menu01-1f",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu01-1f"
+          "_params": {}
         },
         {
           "_name": "aheader3",
@@ -9327,11 +9508,11 @@
           "_sourceTheme": "divem5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"form01 divem5\" group=\"Form\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n        <header>Form</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#e1e1e1\" name=\"border\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6 card\" mbr-if=\"showImage\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mbr-1256x941.jpg\" alt=\"Mobirise\">\n                </div>\n            </div>\n            <div mbr-form class=\"col-12 col-lg-6 mbr-form card form-wrapper\">\n                <form action name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\"> Thanks for filling out\n                            the form!\n                        </div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> Oops...! some\n                            problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <h2 mbr-theme-style=\"display-5\" class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\">Fill out this form to get in touch with us</h2>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <p mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\" data-app-selector=\".mbr-text\">We will try to get back to you as soon as possible.</p>\n                        </div>\n                        <div data-for=\"textarea\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\">\n                            <textarea name=\"textarea\" placeholder=\"Your message\" data-form-field=\"textarea\" mbr-theme-style=\"display-4\" class=\"form-control\"></textarea>\n                        </div>\n                        <div data-for=\"name\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" style>\n                            <input type=\"text\" name=\"name\" placeholder=\"Your name\" data-form-field=\"name\" mbr-theme-style=\"display-4\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Your email\" data-form-field=\"email\" mbr-theme-style=\"display-4\" class=\"form-control\" value>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-md-auto col mbr-section-btn\">\n                            <a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-primary\">SEND NOW</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "ulGvE3lKEw",
+          "_anchor": "form01-1h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "form01-1h"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9525,11 +9706,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "ulGqVvRoyP",
+          "_anchor": "footer01-1g",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer01-1g"
+          "_params": {}
         }
       ]
     }
