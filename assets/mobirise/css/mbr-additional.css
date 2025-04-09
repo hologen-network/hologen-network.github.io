@@ -10292,6 +10292,14 @@ img {
   position: absolute;
   top: 0;
 }
+.cid-uHQIR3SDml .container-fluid {
+  padding: 0 45px;
+}
+@media (max-width: 992px) {
+  .cid-uHQIR3SDml .container-fluid {
+    padding: 0 25px;
+  }
+}
 @media (max-width: 992px) {
   .cid-uHQIR3SDml .container {
     padding: 0 25px;
