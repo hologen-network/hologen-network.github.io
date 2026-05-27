@@ -81,22 +81,12 @@ permalink: /blog.html
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header01 divem5 cid-v4zLVFYdoF blog-hero" id="header01-2k">
-    
-
-    
-    
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="title-wrapper">
-                    <h1 class="mbr-section-title mbr-fonts-style display-1">
-                        <strong>BLOG</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        Updates from the HoloGen Training Network</p>
-                    
-                </div>
+<section data-bs-version="5.1" class="header3 factm5 cid-ulGl6reG8g" id="aheader3-blog">
+    <div class="container">
+        <div class="content-container">
+            <div class="item-left">
+                <h1 class="mbr-section-title mbr-fonts-style mb-0 display-1">
+                    Blog</h1>
             </div>
         </div>
     </div>
@@ -109,11 +99,6 @@ permalink: /blog.html
         <div class="blog-grid">
             {% for post in published_posts %}
             <article class="blog-card">
-                {% if post.image %}
-                <a class="blog-card-image" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}">
-                    <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}">
-                </a>
-                {% endif %}
                 <div class="blog-card-body">
                     <p class="blog-meta mbr-fonts-style">
                         {{ post.date | date: "%d %B %Y" }}{% if post.author %} &middot; {{ post.author }}{% endif %}
@@ -129,6 +114,11 @@ permalink: /blog.html
                     {% endif %}
                     <a class="blog-read-more mbr-fonts-style display-4" href="{{ post.url | relative_url }}">Read more</a>
                 </div>
+                {% if post.image %}
+                <a class="blog-card-image" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}">
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}">
+                </a>
+                {% endif %}
             </article>
             {% endfor %}
         </div>
