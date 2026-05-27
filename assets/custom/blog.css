@@ -1,3 +1,10 @@
+body.blog-page,
+body.blog-page #aheader3-blog,
+body.blog-page #blog-posts {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+}
+
 .blog-list-section {
   padding: 56px 0 80px;
   background: #ffffff;
