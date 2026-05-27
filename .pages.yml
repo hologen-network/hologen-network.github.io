@@ -11,6 +11,12 @@ media:
     output: assets/images
     categories: [image]
     rename: safe
+  - name: supervisor_images
+    label: Supervisor images
+    input: assets/images
+    output: assets/images
+    categories: [image]
+    rename: safe
 
 content:
   - name: blog
@@ -140,8 +146,43 @@ content:
       - name: supervisors
         label: Supervisors
         type: file
-        path: supervisors.html
-        format: code
+        path: _data/supervisors.yml
+        format: yaml
+        fields:
+          - name: supervisors
+            label: Supervisor profiles
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name} - {role}"
+            fields:
+              - name: name
+                label: Name
+                type: string
+                required: true
+              - name: role
+                label: Role
+                type: string
+                required: true
+              - name: institution
+                label: Institution
+                type: string
+              - name: institution_html
+                label: Institution HTML
+                type: string
+              - name: image
+                label: Photo
+                type: image
+                options:
+                  media: supervisor_images
+              - name: image_alt
+                label: Photo alt text
+                type: string
+                default: Mobirise Website Builder
+              - name: bio
+                label: Biography
+                type: text
       - name: events
         label: Events
         type: file

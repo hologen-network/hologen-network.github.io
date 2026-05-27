@@ -1,3 +1,6 @@
+---
+permalink: /supervisors.html
+---
 <!DOCTYPE html>
 <html  >
 <head>
@@ -112,246 +115,29 @@
             </div>
         </div>
         <div class="row">
-            <div class="item features-image col-12 active">
+{% for supervisor in site.data.supervisors.supervisors %}
+            <div class="item features-image col-12{% if forloop.first %} active{% endif %}">
                 <div class="item-wrapper">
                     <a href="#" class="item-img">
-                        <img src="assets/images/torgeir-new-660x660.jpeg" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0">
+                        <img src="{{ supervisor.image }}" alt="{{ supervisor.image_alt | default: supervisor.name }}" data-slide-to="{{ forloop.index0 }}" data-bs-slide-to="{{ forloop.index0 }}">
                     </a>
                     <div class="item-content">
                         <div class="content-wrap">
                             <a class="desc-wrap">
                                 <p class="item-desc mbr-fonts-style display-5">
-                                    Torgeir Hvidsten</p>
+                                    {{ supervisor.name }}</p>
                             </a>
                             <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor, Project Coordinator</h5>
+                                •&nbsp; {{ supervisor.role }}</h5>
                             <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>NMBU</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">My research group focuses on using advanced data analysis methods and large genomics datasets to model how genes interact in regulatory networks and how such networks give rise to properties characteristic to individuals and species.<br><a href="http://www.trhvidsten.org" class="text-primary" target="_blank">www.trhvidsten.org</a> | <a href="https://scholar.google.com/citations?user=rMkIGowAAAAJ" class="text-primary" target="_blank">Google Scholar</a></p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/antton-food2030-439x658.jpeg" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Antton Alberdi</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Associate Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>UCPH</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Ecological and evolutionary hologenomicist. Head of the animal-microbiota interactions lab&nbsp;at UCPH. Coordinator of <a href="https://3domics.eu/" class="text-primary">3D'omics</a> and the&nbsp;<a href="https://www.earthhologenome.org/" class="text-primary">Earth HoloGenome Initiative</a>.&nbsp;<br><a href="http://www.alberdilab.dk" class="text-primary" target="_blank">www.alberdilab.dk</a> | <a href="https://scholar.google.dk/citations?user=06qSsqIAAAAJ&hl=en" class="text-primary" target="_blank">Google Scholar</a></p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/ostaizka-profile2024-240x240.jpg" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Ostaizka Aizpurua</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Assistant Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>UCPH</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">My research focuses on understanding the complex interaction among animals, microbiota and environment, and their influence on animal ecology and evolution.  I'm also the founder of ZiBA Science Resources.<br><a href="http://www.ziba.eus" class="text-primary" target="_blank">www.ziba.eus</a> | <a href="https://scholar.google.com/citations?user=ekRz4s4AAAAJ&hl=en&oi=ao" class="text-primary" target="_blank">Google Scholar</a></p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/karoline-new-440x510.jpeg" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Karoline Faust</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Associate Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>THL</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Our research focuses on investigating microbial community dynamics in silico and in vitro. In particular, we investigate interactions between human gut bacteria and the resulting dynamics with synthetic communities in controlled conditions.<br><a href="http://www.msysbiology.com" class="text-primary" target="_blank">www.msysbiology.com</a> | <a href="http://scholar.google.de/citations?user=rAxBFFAAAAAJ&hl=en" class="text-primary" target="_blank">Google Scholar</a></p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/gilbert-portrt-e1579177762183-825x510.webp" alt="Mobirise Website Builder" data-slide-to="4" data-bs-slide-to="4">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Tom Gilbert</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>UCPH</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Hologenomicist and paleogenomicist. Director of the Center for Evolutionary HoloGenomics at UCPH.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/20201124-hall-lindsay-ah-620860.x5141dc1b.webp" alt="Mobirise Website Builder" data-slide-to="5" data-bs-slide-to="5">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Lindsey Hall</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>UB</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Our research is structured around three key themes: microbe-diet interactions, colonisation resistance, and microbiota-host communication. This is supported by clinical studies involving preterm infants and mother-infant dyads.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/43924503-518x690.jpg" alt="Mobirise Website Builder" data-slide-to="6" data-bs-slide-to="6">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Kati Hanhineva</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>ATL</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Founder of Afekta Technologies Ltd., Professor of food development at the University of Turku, Research director and group leader of food and nutritional metabolomics at the University of Eastern Finland.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/168622-aki-havulinna.jpg.webp" alt="Mobirise Website Builder" data-slide-to="7" data-bs-slide-to="7">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Aki Havulinna</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Adjunct Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>UTU</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Biostatistician, geneticist, chief researcher and group leader. Experienced in geographic health, Bayesian statistics, health register-based studies.  </p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/professoriluennot2023-leo-lahti-1-825x309.png" alt="Mobirise Website Builder" data-slide-to="8" data-bs-slide-to="8">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Leo Lahti</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>UTU</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">The primary research interests of our team are in computational modelling and analysis of complex systems, in particular in metagenomics and microbiome research.&nbsp;Our current research projects focus on the analysis of spatio-temporal dynamics of microbial communities, multi-omic data integration and large-scale population cohort studies. </p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/2hltwo-h-400x400-400x400.jpg" alt="Mobirise Website Builder" data-slide-to="9" data-bs-slide-to="9">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Marc Martí-Renom</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7"><strong>CNAG</strong> and&nbsp;<strong>CRG</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Our research group employs the laws of physics and the rules of evolution to develop and apply experimental/computational methods for determining the 3D structures of biological systems.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/pbp-portrait2-lowres.webp" alt="Mobirise Website Builder" data-slide-to="10" data-bs-slide-to="10">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Phillip Pope</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>NMBU</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Microbial ecologist and physiologist. Experience using multi-omic tools to deconvolute the intimate genetic and physiological relationship between the host animal and its microbiome. </p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><div class="item features-image col-12">
-                <div class="item-wrapper">
-                    <a href="#" class="item-img">
-                        <img src="assets/images/simen-rd-sandve3-1920x1281.jpg" alt="Mobirise Website Builder" data-slide-to="11" data-bs-slide-to="11">
-                    </a>
-                    <div class="item-content">
-                        <div class="content-wrap">
-                            <a class="desc-wrap">
-                                <p class="item-desc mbr-fonts-style display-5">
-                                    Simen Sandve</p>
-                            </a>
-                            <h5 class="item-subtitle mbr-fonts-style display-4">
-                                •&nbsp; Professor</h5>
-                            <h4 class="item-title mbr-fonts-style display-7">
-                                <strong>NMBU</strong></h4>
-                            <p class="item-price mbr-fonts-style display-7">Biologist focussing on production biology genomics research.</p>
+                                {% if supervisor.institution_html %}{{ supervisor.institution_html }}{% else %}<strong>{{ supervisor.institution }}</strong>{% endif %}</h4>
+                            <p class="item-price mbr-fonts-style display-7">{{ supervisor.bio }}</p>
                         </div>
                         
                     </div>
                 </div>
             </div>
+{% endfor %}
             
             
             

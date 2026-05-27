@@ -1,0 +1,125 @@
+supervisors:
+  - name: Torgeir Hvidsten
+    role: Professor, Project Coordinator
+    institution: NMBU
+    image: assets/images/torgeir-new-660x660.jpeg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      My research group focuses on using advanced data analysis methods and large
+      genomics datasets to model how genes interact in regulatory networks and how
+      such networks give rise to properties characteristic to individuals and
+      species.<br><a href="http://www.trhvidsten.org" class="text-primary"
+      target="_blank">www.trhvidsten.org</a> | <a
+      href="https://scholar.google.com/citations?user=rMkIGowAAAAJ"
+      class="text-primary" target="_blank">Google Scholar</a>
+  - name: Antton Alberdi
+    role: Associate Professor
+    institution: UCPH
+    image: assets/images/antton-food2030-439x658.jpeg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Ecological and evolutionary hologenomicist. Head of the animal-microbiota
+      interactions lab&nbsp;at UCPH. Coordinator of <a href="https://3domics.eu/"
+      class="text-primary">3D'omics</a> and the&nbsp;<a
+      href="https://www.earthhologenome.org/" class="text-primary">Earth
+      HoloGenome Initiative</a>.&nbsp;<br><a href="http://www.alberdilab.dk"
+      class="text-primary" target="_blank">www.alberdilab.dk</a> | <a
+      href="https://scholar.google.dk/citations?user=06qSsqIAAAAJ&hl=en"
+      class="text-primary" target="_blank">Google Scholar</a>
+  - name: Ostaizka Aizpurua
+    role: Assistant Professor
+    institution: UCPH
+    image: assets/images/ostaizka-profile2024-240x240.jpg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      My research focuses on understanding the complex interaction among animals,
+      microbiota and environment, and their influence on animal ecology and
+      evolution.  I'm also the founder of ZiBA Science Resources.<br><a
+      href="http://www.ziba.eus" class="text-primary"
+      target="_blank">www.ziba.eus</a> | <a
+      href="https://scholar.google.com/citations?user=ekRz4s4AAAAJ&hl=en&oi=ao"
+      class="text-primary" target="_blank">Google Scholar</a>
+  - name: Karoline Faust
+    role: Associate Professor
+    institution: THL
+    image: assets/images/karoline-new-440x510.jpeg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Our research focuses on investigating microbial community dynamics in silico
+      and in vitro. In particular, we investigate interactions between human gut
+      bacteria and the resulting dynamics with synthetic communities in controlled
+      conditions.<br><a href="http://www.msysbiology.com" class="text-primary"
+      target="_blank">www.msysbiology.com</a> | <a
+      href="http://scholar.google.de/citations?user=rAxBFFAAAAAJ&hl=en"
+      class="text-primary" target="_blank">Google Scholar</a>
+  - name: Tom Gilbert
+    role: Professor
+    institution: UCPH
+    image: assets/images/gilbert-portrt-e1579177762183-825x510.webp
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Hologenomicist and paleogenomicist. Director of the Center for Evolutionary
+      HoloGenomics at UCPH.
+  - name: Lindsey Hall
+    role: Professor
+    institution: UB
+    image: assets/images/20201124-hall-lindsay-ah-620860.x5141dc1b.webp
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Our research is structured around three key themes: microbe-diet
+      interactions, colonisation resistance, and microbiota-host communication.
+      This is supported by clinical studies involving preterm infants and
+      mother-infant dyads.
+  - name: Kati Hanhineva
+    role: Professor
+    institution: ATL
+    image: assets/images/43924503-518x690.jpg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Founder of Afekta Technologies Ltd., Professor of food development at the
+      University of Turku, Research director and group leader of food and
+      nutritional metabolomics at the University of Eastern Finland.
+  - name: Aki Havulinna
+    role: Adjunct Professor
+    institution: UTU
+    image: assets/images/168622-aki-havulinna.jpg.webp
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Biostatistician, geneticist, chief researcher and group leader. Experienced
+      in geographic health, Bayesian statistics, health register-based studies.
+  - name: Leo Lahti
+    role: Professor
+    institution: UTU
+    image: assets/images/professoriluennot2023-leo-lahti-1-825x309.png
+    image_alt: Mobirise Website Builder
+    bio: >-
+      The primary research interests of our team are in computational modelling
+      and analysis of complex systems, in particular in metagenomics and
+      microbiome research.&nbsp;Our current research projects focus on the
+      analysis of spatio-temporal dynamics of microbial communities, multi-omic
+      data integration and large-scale population cohort studies.
+  - name: Marc Martí-Renom
+    role: Professor
+    institution_html: '<strong>CNAG</strong> and&nbsp;<strong>CRG</strong>'
+    image: assets/images/2hltwo-h-400x400-400x400.jpg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Our research group employs the laws of physics and the rules of evolution
+      to develop and apply experimental/computational methods for determining the
+      3D structures of biological systems.
+  - name: Phillip Pope
+    role: Professor
+    institution: NMBU
+    image: assets/images/pbp-portrait2-lowres.webp
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Microbial ecologist and physiologist. Experience using multi-omic tools to
+      deconvolute the intimate genetic and physiological relationship between the
+      host animal and its microbiome.
+  - name: Simen Sandve
+    role: Professor
+    institution: NMBU
+    image: assets/images/simen-rd-sandve3-1920x1281.jpg
+    image_alt: Mobirise Website Builder
+    bio: >-
+      Biologist focussing on production biology genomics research.
