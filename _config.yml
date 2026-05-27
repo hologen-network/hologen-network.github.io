@@ -1,0 +1,14 @@
+title: HoloGen Training Network
+description: Advancing the development and implementation of hologenomics in biological sciences.
+url: "https://www.hologen-network.eu"
+baseurl: ""
+permalink: /blog/:year/:month/:day/:title/
+future: false
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      published: true

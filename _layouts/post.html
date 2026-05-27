@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="{{ '/assets/images/hologen-favicon-128x130.png' | relative_url }}" type="image/x-icon">
+  <meta name="description" content="{{ page.summary | default: site.description | escape }}">
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap-grid.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap-reboot.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/dropdown/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/socicon/css/styles.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/theme/css/style.css' | relative_url }}">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Unbounded:200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unbounded:200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Archivo:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="{{ '/assets/mobirise/css/mbr-additional.css' | relative_url }}?v=VmxeMU"><link rel="stylesheet" href="{{ '/assets/mobirise/css/mbr-additional.css' | relative_url }}?v=VmxeMU" type="text/css">
+  <link rel="stylesheet" href="{{ '/assets/custom/blog.css' | relative_url }}" type="text/css">
+</head>
+<body>
+  <section data-bs-version="5.1" class="menu menu01 divem5 cid-ukWJNv6UZV" once="menu" id="menu01-blog-post">
+    <nav class="navbar navbar-dropdown navbar-expand-lg">
+        <div class="menu_box container-fluid">
+            <div class="navbar-brand d-flex">
+                <span class="navbar-logo">
+                    <a href="{{ '/index.html' | relative_url }}">
+                        <img src="{{ '/assets/images/hologen-logo-web-1000x160.png' | relative_url }}" alt="">
+                    </a>
+                </span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                        <a class="nav-link link text-primary display-4" href="{{ '/index.html' | relative_url }}">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link text-primary dropdown-toggle display-4" href="{{ '/concept.html' | relative_url }}" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">ABOUT US</a><div class="dropdown-menu" aria-labelledby="dropdown-214"><a class="text-primary show dropdown-item display-4" href="{{ '/concept.html' | relative_url }}">Concept</a><a class="text-primary dropdown-item display-4" href="{{ '/consortium.html' | relative_url }}">Consortium</a><a class="text-primary dropdown-item display-4" href="{{ '/trainees.html' | relative_url }}">Trainees</a><a class="text-primary dropdown-item display-4" href="{{ '/supervisors.html' | relative_url }}">Supervisors</a></div>
+                    </li><li class="nav-item"><a class="nav-link link text-primary display-4" href="{{ '/blog.html' | relative_url }}">BLOG</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link text-primary dropdown-toggle show display-4" href="{{ '/events.html' | relative_url }}" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">EVENTS</a><div class="dropdown-menu show" aria-labelledby="dropdown-392" data-bs-popper="none"><a class="text-primary dropdown-item display-4" href="{{ '/events.html' | relative_url }}">Training retreats</a><a class="text-primary show dropdown-item display-4" href="{{ '/hologen_symposium.html' | relative_url }}">Hologen Symposium</a></div>
+                    </li><li class="nav-item"><a class="nav-link link text-primary show display-4" href="https://www.hologen-network.eu/training/" target="_blank">RESOURCES</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link link text-primary display-4" href="{{ '/contact.html' | relative_url }}">CONTACT</a>
+                    </li></ul>
+            </div>
+        </div>
+    </nav>
+  </section>
+
+  <main class="blog-post-page">
+    <section data-bs-version="5.1" class="blog-post-section">
+      <div class="container">
+        <div class="blog-post-header">
+          <a class="blog-back mbr-fonts-style display-4" href="{{ '/blog.html' | relative_url }}">Back to blog</a>
+          <p class="blog-meta mbr-fonts-style">
+            {{ page.date | date: "%d %B %Y" }}{% if page.author %} &middot; {{ page.author }}{% endif %}
+          </p>
+          <h1 class="blog-post-title mbr-fonts-style display-2">
+            <strong>{{ page.title | escape }}</strong>
+          </h1>
+          {% if page.summary %}
+          <p class="blog-post-summary mbr-fonts-style display-7">{{ page.summary | escape }}</p>
+          {% endif %}
+        </div>
+
+        {% if page.image %}
+        <figure class="blog-post-image">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
+          {% if page.image_caption %}
+          <figcaption class="mbr-fonts-style display-4">{{ page.image_caption | escape }}</figcaption>
+          {% endif %}
+        </figure>
+        {% endif %}
+
+        <div class="blog-post-content mbr-fonts-style">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section data-bs-version="5.1" class="footer01 divem5 cid-ulCUPQgLkT" once="footers" id="footer01-blog-post">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="copy-wrapper">
+                    <a class="logo-wrapper" href="{{ '/index.html' | relative_url }}">
+                        <img src="{{ '/assets/images/eu-flag-120x80.jpg' | relative_url }}" alt="European Union flag">
+                        <p class="mbr-brand mbr-fonts-style display-7">
+                           <strong>Funded by the European Union under Grant Agreement&nbsp;</strong>101169005</p>
+                    </a>
+                    <p class="mbr-copy mbr-fonts-style display-4">
+                        HoloGen Consortium 2026</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <script src="{{ '/assets/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/smoothscroll/smooth-scroll.js' | relative_url }}"></script>
+  <script src="{{ '/assets/ytplayer/index.js' | relative_url }}"></script>
+  <script src="{{ '/assets/dropdown/js/navbar-dropdown.js' | relative_url }}"></script>
+  <script src="{{ '/assets/theme/js/script.js' | relative_url }}"></script>
+</body>
+</html>

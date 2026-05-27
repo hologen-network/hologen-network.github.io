@@ -1,0 +1,123 @@
+media:
+  - name: blog_images
+    label: Blog images
+    input: assets/uploads
+    output: /assets/uploads
+    categories: [image]
+    rename: safe
+
+content:
+  - name: blog
+    label: Blog posts
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{title}.md"
+      field: create
+    exclude:
+      - ".gitkeep"
+    view:
+      primary: title
+      sort: date
+      order: desc
+      fields: [date, author, published]
+    fields:
+      - name: layout
+        label: false
+        type: string
+        hidden: true
+        default: post
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Publish date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: author
+        label: Author
+        type: string
+      - name: summary
+        label: Summary
+        type: text
+      - name: image
+        label: Featured image
+        type: image
+        options:
+          media: blog_images
+      - name: image_alt
+        label: Featured image alt text
+        type: string
+      - name: image_caption
+        label: Featured image caption
+        type: string
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+          media: blog_images
+          switcher: true
+  - name: static_pages
+    label: Static pages
+    type: group
+    items:
+      - name: home
+        label: Home
+        type: file
+        path: index.html
+        format: code
+      - name: concept
+        label: Concept
+        type: file
+        path: concept.html
+        format: code
+      - name: consortium
+        label: Consortium
+        type: file
+        path: consortium.html
+        format: code
+      - name: trainees
+        label: Trainees
+        type: file
+        path: trainees.html
+        format: code
+      - name: supervisors
+        label: Supervisors
+        type: file
+        path: supervisors.html
+        format: code
+      - name: events
+        label: Events
+        type: file
+        path: events.html
+        format: code
+      - name: symposium
+        label: HoloGen Symposium
+        type: file
+        path: hologen_symposium.html
+        format: code
+      - name: positions
+        label: Positions
+        type: file
+        path: positions.html
+        format: code
+      - name: contact
+        label: Contact
+        type: file
+        path: contact.html
+        format: code
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: app
