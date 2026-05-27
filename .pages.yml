@@ -5,6 +5,12 @@ media:
     output: /assets/uploads
     categories: [image]
     rename: safe
+  - name: trainee_images
+    label: Trainee images
+    input: assets/images
+    output: assets/images
+    categories: [image]
+    rename: safe
 
 content:
   - name: blog
@@ -88,8 +94,49 @@ content:
       - name: trainees
         label: Trainees
         type: file
-        path: trainees.html
-        format: code
+        path: _data/trainees.yml
+        format: yaml
+        fields:
+          - name: trainees
+            label: Trainee profiles
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{code} - {name}"
+            fields:
+              - name: code
+                label: DC code
+                type: string
+                required: true
+              - name: name
+                label: Name
+                type: string
+                required: true
+              - name: institution
+                label: Institution
+                type: string
+                required: true
+              - name: image
+                label: Photo
+                type: image
+                options:
+                  media: trainee_images
+              - name: image_alt
+                label: Photo alt text
+                type: string
+                default: Mobirise Website Builder
+              - name: bio
+                label: Biography
+                type: text
+              - name: section_id
+                label: Section ID
+                type: string
+                hidden: true
+              - name: section_class
+                label: Section class
+                type: string
+                hidden: true
       - name: supervisors
         label: Supervisors
         type: file
