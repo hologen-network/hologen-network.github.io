@@ -1,0 +1,54 @@
+events:
+  - title: Introduction to Hologenomics
+    location: Copenhagen
+    dates: 5–9 May 2025
+    topics:
+      - Hologenomics theory and practice
+      - Introduction to statistical concepts and methods
+      - Code and data management
+      - Research ethics
+      - HoloGen Symposium
+  - title: High-Throughput Profiling
+    location: Barcelona
+    dates: 10–14 November 2025
+    topics:
+      - Sequencing technologies for hologenomics
+      - 'Metagenomics: design and data generation'
+      - 'Metagenomics: downstream analysis'
+      - Modelling the intestinal environment
+      - Industry perspectives
+      - Communicating across cultures
+  - title: Data analysis and Open Science
+    location: Turku
+    dates: 26–29 May 2026
+    topics:
+      - Doctoral candidate project presentations
+      - Communication activities and storyboarding
+      - Data management and life science databases
+      - Methods for studying host–microbiota interactions
+      - Finnish Bioinformatics Days
+  - title: Dissemination, Exploitation and Communication
+    location: Leuven
+    dates: 19–23 October 2026
+    topics:
+      - Science communication and outreach
+      - Scientific writing
+      - Symposium on (meta-)community modelling
+      - Data visualisation
+      - IPR, patents and copyright
+      - Career development
+  - title: Career Development
+    location:
+    dates: Spring 2027
+    topics:
+      - Academia-Industry
+      - Leadership
+      - Funding opportunities
+      - Career strategising
+      - 'PhD defense: tips and tricks'
+  - title: Final meeting
+    location:
+    dates: Autumn 2027
+    topics:
+      - Presentation of results
+      - Future prospects

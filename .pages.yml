@@ -184,10 +184,34 @@ content:
                 label: Biography
                 type: text
       - name: events
-        label: Events
+        label: Training retreats
         type: file
-        path: events.html
-        format: code
+        path: _data/events.yml
+        format: yaml
+        fields:
+          - name: events
+            label: Training retreats
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title} - {dates}"
+            fields:
+              - name: title
+                label: Title
+                type: string
+                required: true
+              - name: location
+                label: Location
+                type: string
+              - name: dates
+                label: Dates
+                type: string
+                required: true
+              - name: topics
+                label: Topics
+                type: string
+                list: true
       - name: symposium
         label: HoloGen Symposium
         type: file
