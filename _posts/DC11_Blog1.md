@@ -25,7 +25,7 @@ Although invisible, this hidden community quietly affects many parts of our dail
 
 Scientists are also beginning to realise that the gut microbiome is not just a simple random collection of microbes. **It is a living ecosystem that changes throughout our life**, so closely connected to human health that it is sometimes described as **a hidden “microbial organ”** within the body. Like any ecosystem, **the gut microbiome depends on balance.** Antibiotics, changes in diet, new environments, or even how a baby is fed during infancy can all influence which microbes thrive inside the gut. Most of the time, these ecosystems adapt and remain healthy. However, when the balance of the microbiome changes too greatly, it can sometimes influence health and behaviour in unexpected ways. Therefore, just as we care for the health of our heart, lungs, or liver, maintaining a healthy balance within this hidden microbial world also be important for our overall well-being.
 
-![image.png](/assets/uploads/blog1cjimage1.png)
+![image.png](/assets/uploads/dc11blog1figure1.png)
 
 Also, **the gut microbiome is not exactly the same in every person.** As people live in different environments around the world, these microbial ecosystems can develop in different ways.
 
@@ -43,7 +43,7 @@ During the first years of life, this invisible community changes rapidly, eventu
 
 The early-life gut microbiome does not appear fully formed all at once. Instead, it develops step by step. The first microbes arrive during birth and through close contact with parents and caregivers. And then they are shaped by feeding, environment, and daily exposures. Some microbes successfully settle and grow, while others disappear as conditions inside the gut continue to change. As infants transition from milk to solid foods, the gut environment changes again. New nutrients create new ecological opportunities, allowing different microbes to thrive and reshape the developing microbial community. Over the first few years of life, this hidden ecosystem becomes increasingly complex and stable. By around two to three years of age, the gut microbiome begins to resemble a more adult-like community. Even so, the process does not unfold in exactly the same way for every child. Small differences in diet, lifestyle, environment, and daily experiences can shape distinct microbial communities over time.
 
-![image.png](/assets/uploads/blog1cjimage2.png)
+![image.png](/assets/uploads/dc11blog1figure2.png)
 
 **This early stage is especially important** because the gut ecosystem is still developing. Scientists believe that changes during this period may influence health later in life, including the risk of allergies and some immune-related diseases.
 
@@ -61,7 +61,7 @@ They compete for limited resources — nutrients and space in the gut. They comp
 
 Over time, this constant competition, cooperation, and replacement gradually shapes a more stable microbial community. Some microbes establish long-term residence, forming the backbone of the gut ecosystem. Others appear only briefly and disappear. This is not a peaceful process. It is a dynamic, ongoing reshaping of the ecosystem — **a silent war where the winners are not always the strongest, but the ones best adapted to the gut environment**.
 
-![image.png](/assets/uploads/blog1cjimage3.png)
+![image.png](/assets/uploads/dc11blog1figure3.png)
 
 ## A Main Player: *Bifidobacterium*
 
@@ -73,7 +73,7 @@ But their role goes beyond competition. By breaking down HMO, they **produce sma
 
 However, their dominance is not universal. Which types of *Bifidobacterium* are present, and how abundant they are, can vary widely depending on early-life conditions — including feeding practices, environmental exposures, and broader ecological contexts. 
 
-![image.png](/assets/uploads/blog1cjimage4.png)
+![image.png](/assets/uploads/dc11blog1figure4.png)
 
 ## The *Bifidobacterium* Identity Atlas
 
@@ -85,7 +85,7 @@ By comparing these genomic “IDs” across many samples, we can begin to recons
 
 In this way, genomes allow us to move beyond simply asking which microbes are present, to understanding how they are connected, how they vary, and how they have adapted to different environments. This also opens the door to a more applied question: whether specific *Bifidobacterium* types are better suited to infants in different geographic regions, and all this knowledge could be used to design more targeted, region-specific microbial interventions.
 
-![image.png](/assets/uploads/blog1cjimage5.png)
+![image.png](/assets/uploads/dc11blog1figure5.png)
 
 ## The Journey Continues
 
