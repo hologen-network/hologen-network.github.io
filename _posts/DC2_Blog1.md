@@ -104,10 +104,7 @@ I hope I've managed to inspire some curiosity about science through this blog, a
 # References
 
 1. Salosensaari, A., Laitinen, V., Havulinna, A. S., Meric, G., Cheng, S., Perola, M., Valsta, L., Alfthan, G., Inouye, M., Watrous, J. D., Long, T., Salido, R. A., Sanders, K., Brennan, C., Humphrey, G. C., Sanders, J. G., Jain, M., Jousilahti, P., Salomaa, V., Knight, R., … Niiranen, T. (2021). Taxonomic signatures of cause-specific mortality risk in human gut microbiome. *Nature communications*, *12*(1), 2671 [https://doi.org/10.1038/s41467-021-22962-y](https://doi.org/10.1038/s41467-021-22962-y)
-
 2. Borodulin K, Tolonen H, Jousilahti P, Jula A, Juolevi A, Koskinen S, Kuulasmaa K, Laatikainen T, Männistö S, Peltonen M, Perola M, Puska P, Salomaa V, Sundvall J, Virtanen SM, Vartiainen E. Cohort Profile: The National FINRISK Study. Int J Epidemiol. 2018 Jun 1;47(3):696-696i. doi: 10.1093/ije/dyx239. PMID: 29165699.
-
-3. Mallick, H., Porwal, A., Saha, S., Basak, P., Svetnik, V., & Paul, E. (2024). An integrated Bayesian framework for multi-omics prediction and classification. *Statistics in medicine*, *43*(5), 983–1002. [https://doi.org/10.1002/sim.9953 (https://doi.org/10.1002/sim.9953)
-
-4. [https://github.com/himelmallick/IntegratedLearner (https://github.com/himelmallick/IntegratedLearner)
+3. Mallick, H., Porwal, A., Saha, S., Basak, P., Svetnik, V., & Paul, E. (2024). An integrated Bayesian framework for multi-omics prediction and classification. *Statistics in medicine*, *43*(5), 983–1002. [[https://doi.org/10.1002/sim.9953](https://doi.org/10.1002/sim.9953) ([https://doi.org/10.1002/sim.9953](https://doi.org/10.1002/sim.9953))
+4. [[https://github.com/himelmallick/IntegratedLearner](https://github.com/himelmallick/IntegratedLearner) ([https://github.com/himelmallick/IntegratedLearner](https://github.com/himelmallick/IntegratedLearner))
 
