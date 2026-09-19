@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tiny Travellers: A Journey Through the Infant Gut"
-date: 2026-09-18
+date: 2026-09-30
 author: Chujun Zhang
 summary: What happens inside a baby’s gut during the early years of life? A
   microscopic ecosystem is taking shape — microbes arrive, compete, cooperate,
