@@ -64,6 +64,8 @@ For example, scientists can measure:
 - which proteins are produced,
 - and which metabolites are circulating.
 
+![image.png](/assets/uploads/dc1blog1figure1.png)
+
 By integrating all these layers, we can begin to see how diet, microbes, and the animal influence one another. I like to think of it as moving from looking at isolated puzzle pieces to finally seeing parts of the full picture.
 
 ### *What excites me most*
