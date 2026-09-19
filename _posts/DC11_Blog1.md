@@ -11,7 +11,7 @@ summary: What happens inside a baby’s gut during the early years of life? A
   microbiome, why they differ around the world, and how understanding these
   differences could one day help us design better microbial interventions for
   infants.
-published: true
+published: false
 ---
 Welcome — this blog is an invitation to explore a hidden world inside us: the microbes that travel, compete, and settle in our gut from the very beginning of life.
 
