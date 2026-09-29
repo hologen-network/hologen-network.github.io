@@ -12,8 +12,14 @@ image_caption: This figure illustrates how my PhD project integrates information
   uncovering these interactions is essential to understanding how diet shapes
   health and sustainability.
 published: true
+summary: >-
+  Can tiny microbes help make agriculture more sustainable? 
+
+  Gut microbes interact with diet and livestock hosts in ways that can shape
+  animal health, feed efficiency, and environmental impact, offering new
+  possibilities for more sustainable farming.
 ---
-### ***What if tiny microbes could help make agriculture more sustainable?***
+### What if tiny microbes could help make agriculture more sustainable?
 
 These invisible communities of bacteria, fungi, archaea, and other microorganisms live inside farm animals and may play an important role in the future of sustainable agriculture.
 
@@ -25,7 +31,7 @@ This research explores how microbes interact with the animal host, shaping proce
 
 The project mainly focuses on pigs and cattle, two of the world’s most important livestock species. The broader goal is to contribute to more sustainable animal production systems that support both efficiency and animal well-being.
 
-### *The tiny organisms that shape animal health*
+### The tiny organisms that shape animal health
 
 Inside the digestive system of every animal lives an enormous community of microorganisms called the gut microbiome. This includes bacteria, fungi, archaea, and protozoa. Even though they are microscopic, they play essential roles in digestion, immunity, metabolism, and overall health.
 
@@ -37,7 +43,7 @@ In pigs, gut microbes influence how efficiently animals use nutrients from feed.
 
 What fascinates me most is that these microbial communities are not random. Diet can change them. Genetics can shape them. And small changes in the microbiome may influence how animals grow, respond to feed, or even produce methane emissions.
 
-### *Why this matters for sustainability*
+### Why this matters for sustainability
 
 One of the biggest challenges in agriculture today is producing enough food for a growing global population while reducing environmental pressure.
 
@@ -51,7 +57,7 @@ In cattle, another important issue is methane production. Methane is a greenhous
 
 Understanding these relationships could help us develop smarter and more sustainable livestock systems in the future.
 
-### *Looking at the whole system*
+### Looking at the whole system
 
 One of the most exciting aspects of my PhD is the use of something called holo-omics.
 
@@ -68,7 +74,7 @@ For example, scientists can measure:
 
 By integrating all these layers, we can begin to see how diet, microbes, and the animal influence one another. I like to think of it as moving from looking at isolated puzzle pieces to finally seeing parts of the full picture.
 
-### *What excites me most*
+### What excites me most
 
 What I find most inspiring about this research is its interdisciplinary nature.
 
