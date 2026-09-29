@@ -1,9 +1,15 @@
 ---
 layout: post
 title: What can newt poop teach us about how animals respond to climate change?
-date: 2026-09-30
+date: 2026-10-01
 author: Elsa Brenner
-published: false
+published: true
+summary: >-
+  What can newt poop teach us about adapting to a warming world? 
+
+  This blog explores whether gut microbes can help newts cope with rising
+  temperatures, and whether transferring heat-adapted microbiomes could improve
+  their ability to respond to climate change.
 ---
 ***What can newt poop teach us about how animals respond to climate change?***
 
