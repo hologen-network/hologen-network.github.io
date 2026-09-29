@@ -15,9 +15,9 @@ published: true
 summary: >-
   Can tiny microbes help make agriculture more sustainable? 
 
-  Gut microbes interact with diet and livestock hosts in ways that can shape
-  animal health, feed efficiency, and environmental impact, offering new
-  possibilities for more sustainable farming.
+  This blog explores how the gut microbiome interacts with diet and livestock
+  hosts, and how understanding these hidden relationships could support
+  healthier animals, better feed efficiency, and more sustainable farming.
 ---
 ### What if tiny microbes could help make agriculture more sustainable?
 
