@@ -1,11 +1,16 @@
 ---
 layout: post
 title: Into the world of hologen, hologenomics and some data science
-date: 2026-09-30
+date: 2026-10-01
 author: Sneha Das
 published: false
+summary: >-
+  What can the microbes in our gut tell us about our future health? 
+
+  This blog explores how gut microbiome and metabolic data can be combined with
+  machine learning models to better understand and predict disease risk.
 ---
-# A little bit about me and Hologen!
+### A little bit about me and Hologen!
 
 I'm Sneha Das, a 2nd year Doctoral Researcher in Bioinformatics at the University of Turku, in the Turku Data Science group, pursuing my PhD as part of the Hologen Doctoral Network - Hologen, for short.
 
@@ -17,7 +22,7 @@ Before I go further, consider this: your body is home to trillions of microbial 
 
 ![image.png](/assets/uploads/dc2blog1figure1.png)
 
-# Hologenomics
+### Hologenomics
 
 So what is Hologenomics? It is the study of your DNA together with the DNA of all the microbes living inside you- not as two separate things, but as one connected whole. Think of your body like an apartment: you're the main tenant, but you've got millions of microbe roommates living there too- some help keep things running smoothly, boosting your health, while others cause trouble and work against it. To really understand the apartment, you have to study everyone in it, not just you. That's hologenomics: you and your microbe roommates studied together. This collective community of microorganisms living inside a host is called the microbiome.
 
@@ -25,7 +30,7 @@ To be biologically precise, hologenomics is a branch of "omics" (the large-scale
 
 It's also interesting that hologenomics isn't limited to humans- it applies to every living organism, from plants to animals, that acts as a host for microorganisms.
 
-# My PhD Project and some basics
+### My PhD Project and some basics
 
 My PhD project is titled "Multi-domain data integration for microbiome-based disease risk prediction." In plain terms, it's about mixing different types of data from different sources- what researchers call "multi-domain" data. Think about the various types of data in the real world: image, text, audio, and so on. Combining these instead of relying on just one gives a much richer picture. Say I want to understand your personality- I could look at your Spotify playlist, but that only tells me your music taste. Add to this your Instagram activity, and combining it all gives me a far more complete picture than any single source alone. It's the same idea with health: different clues together help us predict risk better than any one clue on its own.
 
@@ -39,7 +44,7 @@ The human gut is our digestive tract- spanning the stomach and intestines - resp
 
 And, why does metagenomics matter? Think about how profoundly microbes affect us — we all remember COVID-19, how a virus invisible to the naked eye wreaked global havoc. Not every microbe can be grown in a lab, which is where sequencers come in — machines that fragment metagenomic samples and decode them into biological code. In simple terms, we read tiny pieces of DNA like barcodes to figure out which microbes are there. Computational tools then analyze those fragments and identify which microbes they belong to.
 
-# Survival Modelling- a very important part of my work
+### Survival Modelling- a very important part of my work
 
 So I combine metabolomics and metagenomics data- but what do I actually do with it? Three keywords sum up my work: survival modelling, multi-omics, and the human microbiome.
 
@@ -55,7 +60,7 @@ By combining survival data with microbiome data, I can better predict when someo
 
 Survival modelling is the statistical technique that makes this possible — predicting when events happen, and tracking how many people are still "at risk" over time.
 
-# Multi-omics Fusion Strategies and Machine Learning
+### Multi-omics Fusion Strategies and Machine Learning
 
 Now we have multi-omics data, as well as survival data, but with such heterogeneous and non-uniform data, how do we meaningfully combine these different sources? Because, as the golden rule goes, one size does not fit all. Consider a simple example: we have categorical data- like gender (male/female), or a yes/no questionnaire, while on the other hand we have continuous data, like age, height, weight, or BMI (Body Mass Index), which can take many different values. Can we use the same formula to analyse all of these? Can we treat them all the same? No- each data type needs to be processed differently using models that account for its inherent characteristics. Now add another layer of complexity: biological omics data, with its own nuances, where extra caution is needed before making predictions about someone's health.
 
@@ -75,7 +80,7 @@ In terms of machine learning algorithms, we have been testing multiple options t
 
 ![image.png](/assets/uploads/dc2blog1figure2.png)
 
-# The Data and the Tool
+### The Data and the Tool
 
 To train and validate our models, we use the FINRISK dataset [1,2], a unique and well-characterised cohort of Finnish people sampled from all across Finland, with rich metadata and survival data spanning many disease endpoints as well as all-cause mortality. We currently have over 20 years of follow-up data for over 7,000 participants, making it an exceptionally large and high-quality cohort that gives us strong confidence in our predictions. The bigger the dataset, the more reliable the patterns we find- think of it like a school poll. If you only ask 5 students what their favorite subject is, you might get a biased answer. But if you ask 100 students across every grade, the results actually reflect the whole school.  We are also testing various parameter combinations, running models on the full dataset as well as subsets, on raw data as well as filtered and screened data, accounting for the inherent characteristics of the data and performing preprocessing to reduce variance (simply put, how much the data is inconsistent and scattered).
 
@@ -83,7 +88,7 @@ To train and validate our models, we use the FINRISK dataset [1,2], a unique and
 
 The computational tool we use and extend is IntegratedLearner [3,4], available as an R package on GitHub. Originally built for multi-omics classification, my project extends it to incorporate survival analysis, adding functions for survival data integration. The final output is not just survival predictions and evaluations of how good those predictions are, but also meaningful biological signals: the top features driving or associated with the survival outcomes, for example, the top bacteria or top metabolites most strongly linked to the disease endpoint of interest.
 
-# Collaborations
+### Collaborations
 
 This work is done in close collaboration with Himel Mallick's team, who originally developed IntegratedLearner. I am deeply grateful to my supervisors, Leo Lahti and Aki Havulinna for their constant support, to our collaborator Himel Mallick and Nalin Arora from his team, for their invaluable guidance, contributions, and support throughout this project. Day to day, that looks like Zoom calls across time zones, sharing codes and outputs, and comparing results back and forth until things click. Because as they say, if you want to go fast, go alone; but if you want to go far, go together. This collaboration lets us bring our complementary skillsets to the table, get mentored by amazing supervisors, learn from each other, and ultimately give a meaningful and useful tool back to the community.
 
@@ -93,7 +98,7 @@ This work is done in close collaboration with Himel Mallick's team, who original
 
 For my work, I rely heavily on R, a coding language used to analyze data, along with Bioconductor packages like mia, a toolkit built specifically for microbiome analysis. These are some of the tools scientists use to make sense of biological data. And to future bioinformatics enthusiasts: I highly recommend googling these up
 
-# Summing up my PhD journey so far
+### Summing up my PhD journey so far
 
 There are honestly a million things that excite me about this PhD: the cultural exposure as an international student, the collaborations across labs and continents, the chance to hone my skills and learn cool new science, and most importantly, the opportunity to contribute something back to the scientific community and beyond, something that could genuinely be used for the betterment of human health.
 
@@ -101,7 +106,7 @@ If there's one thing I want you to take away from this, it's simple: be curious,
 
 I hope I've managed to inspire some curiosity about science through this blog, and thank you so much for reading! This was all about my work, but there's so much more to a PhD- retreats, conferences, work trips, seminars, presentations, making scientific connections and friends, and if you want to know more about my exciting PhD life, stay tuned for my next blog!
 
-# References
+### References
 
 1. Salosensaari, A., Laitinen, V., Havulinna, A. S., Meric, G., Cheng, S., Perola, M., Valsta, L., Alfthan, G., Inouye, M., Watrous, J. D., Long, T., Salido, R. A., Sanders, K., Brennan, C., Humphrey, G. C., Sanders, J. G., Jain, M., Jousilahti, P., Salomaa, V., Knight, R., … Niiranen, T. (2021). Taxonomic signatures of cause-specific mortality risk in human gut microbiome. *Nature communications*, *12*(1), 2671 [https://doi.org/10.1038/s41467-021-22962-y](https://doi.org/10.1038/s41467-021-22962-y)
 2. Borodulin K, Tolonen H, Jousilahti P, Jula A, Juolevi A, Koskinen S, Kuulasmaa K, Laatikainen T, Männistö S, Peltonen M, Perola M, Puska P, Salomaa V, Sundvall J, Virtanen SM, Vartiainen E. Cohort Profile: The National FINRISK Study. Int J Epidemiol. 2018 Jun 1;47(3):696-696i. doi: 10.1093/ije/dyx239. PMID: 29165699.
