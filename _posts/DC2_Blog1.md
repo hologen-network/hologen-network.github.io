@@ -3,7 +3,7 @@ layout: post
 title: Into the world of hologen, hologenomics and some data science
 date: 2026-10-01
 author: Sneha Das
-published: false
+published: true
 summary: >-
   What can the microbes in our gut tell us about our future health? 
 
