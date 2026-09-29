@@ -4,6 +4,12 @@ title: "Mapping the Invisible: Exploring the Geography of the Human Gut Microbio
 date: 2026-10-01
 author: Joao Cassucci dos Santos
 published: true
+summary: >-
+  What can maps tell us about the microbes living inside us? 
+
+  This blog explores how geography and population data from Finland can reveal
+  patterns in the human gut microbiome and help uncover how diet, environment,
+  urbanization, and health may shape our microbial communities.
 ---
 The tools used to read the DNA code have become very good in the past decade, so good in fact that scientists are able to detect thousands of different species of microbes based solely on short chains of letters that they are able to extract from an environment. This type of DNA characterization is called metagenomics, colloquially known as the analysis of DNA fingerprints, and in the field of human health, it allows us to discover a new world inside the human gut. The organisms there compromise many different species, which also vary significantly across different human populations, and these differences are also correlated with variations in dietary habits, sex differences (male/female), age and, most importantly, health issues.  
 The gut microbiome generates many metabolic products that can affect the human body locally, like with IBS or lactose intolerance, or even generally, through the two-way communication pathways that exist between all of our organs. There is growing evidence of a correlation between the gut microbiome and bone health, mental health, and cardiovascular health. However, correlation does not imply causation, sunburns and numbers of ice cream sales rise in the summer, but ice cream doesn’t cause sunburn, so what exactly is the link between the composition of a particular gut microbiome and certain health problems? My PhD project focuses on trying to find out the answer to this question using maps, geography and statistics data.
