@@ -11,7 +11,7 @@ summary: What happens inside a baby’s gut during the early years of life? A
   microbiome, why they differ around the world, and how understanding these
   differences could one day help us design better microbial interventions for
   infants.
-published: false
+published: true
 ---
 Welcome — this blog is an invitation to explore a hidden world inside us: the microbes that travel, compete, and settle in our gut from the very beginning of life.
 
@@ -95,7 +95,7 @@ Thank you for joining me on this journey into the hidden world of our gut. There
 
 See you next time!
 
-> Written by **Chujun Zhang**, who is on the journey to understand the tiny travellers in our gut.
+> *Written by **Chujun Zhang**, who is on the journey to understand the tiny travellers in our gut.
 > Illustrations by **Chujun Zhang**, created in collaboration with her AI assistance “**ChanglinJ**”.
-> Guided by **Professor Lindsay Hall**, whose insights shaped this journey and made it possible.
+> Guided by **Professor Lindsay Hall**, whose insights shaped this journey and made it possible.*
 
