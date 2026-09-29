@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Breeding the Gut microbiome for sustainable Atlantic salmon production "
-date: 2026-09-30
+date: 2026-10-01
 author: Emmanuel Okoli Odah
-summary: "Can we select salmon not just for their genes, but for the bacteria
-  they carry? "
-published: false
+summary: >-
+  Why do some salmon grow better and contain more omega-3 than others? 
+
+  This blog explores how genes and gut microbes work together to shape feed
+  efficiency and nutritional quality, and whether this hidden partnership could
+  help breed healthier, more sustainable salmon.
+published: true
 ---
 Not all Atlantic salmon grow the same. Even when two fish of the same age are reared in the same tank, under the same water conditions, they can still grow differently. One may grow faster, use its feed better, and contain more omega-3 fats than the other. So, where does the difference come from? For many years, farmers believed it was due to the fish's genes and the environment in which it was reared. That means fish with good genes result in better performance. Today, we know that genes are only part of the story. There are trillions of tiny microorganisms living inside every salmon. These microbes may influence how well the fish grows, how efficiently it uses its feed, and even how much omega-3 fat ends up on your dinner plate. My PhD research focuses on Atlantic salmon, one of the world's most important farmed fish. I study how the gut microbiome influences feed use and omega-3 fat content, and how it interacts with the fish's genes to contribute to these important traits.
 
