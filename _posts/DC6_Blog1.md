@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Listening to the Chemical Conversations Between Hosts and Their Microbes
-date: 2026-09-30
+date: 2026-10-01
 author: Anh Vu Nguyen
 image: /assets/uploads/dc6blog1figure1.jpg
-published: false
+published: true
+summary: >-
+  What happens inside the gut when poultry face disease and treatment? 
+
+  This blog explores how infection, vaccination, and antibiotic use affect gut
+  microbes and metabolism, and how understanding these changes could support
+  disease prevention, recovery, and better poultry health.
 ---
 The gut has become one of the most fascinating places to study health. For a long time, microbes were mainly seen as possible causes of disease. Today, we know that many of them are important partners. The gut microbiota, the community of bacteria and other microorganisms living in the intestine, helps break down food, produces useful molecules, supports the immune system, and influences how the body responds to stress and disease. This matters in very practical ways. A healthy gut can help animals grow well, recover from stress, and resist disease, while a disturbed gut can make illness more severe or recovery more difficult.
 
@@ -16,7 +22,7 @@ My name is Anh Vu Nguyen, and I am a DC6 doctoral candidate in the HoloGen netwo
 
 > **This figure shows how my PhD project connects poultry disease challenges with molecular tools to understand what happens inside the gut.** We study how vaccination, Histomonas infection, adenovirus infection, and antibiotic use affect the bird's cecum (e.g., chickens shown in the figure). By analyzing cecal tissue and digesta using metagenomics and metabolomics, we aim to understand host-microbe interactions during disease, protection, and recovery.
 
-## **Why study the poultry gut?**
+### **Why study the poultry gut?**
 
 Poultry health is important far beyond the farm. Chickens and turkeys are major sources of food around the world, and keeping them healthy supports animal welfare, food security, and more sustainable production.
 
@@ -24,7 +30,7 @@ When birds become sick, they may suffer, grow more slowly, and require treatment
 
 One important part of the poultry gut is the caecum. The caecum is a pouch-like region located near the beginning of the large intestine, where many microbes live and where important microbial activities take place. This makes the caecum a valuable place to study how disease, protection, and recovery are connected to the gut microbiota.
 
-## **How can chemistry help us understand disease?**
+### **How can chemistry help us understand disease?**
 
 My role in the project is to study the chemistry of the gut using metabolomics. Metabolomics is the study of small molecules, called metabolites, in biological samples. These molecules include amino acids, fatty acids, sugars, bile acids, vitamins, and many other compounds. Some are produced by the bird, some by microbes, and some through cooperation between the two.
 
@@ -36,7 +42,7 @@ In my project, we mainly use untargeted metabolomics. This means that instead of
 
 This is one of the parts of my PhD that excites me most. My background is in analytical chemistry, and I became fascinated by mass spectrometry during my previous studies and research training. Before starting my PhD, I had the chance to work with lipidomics and spatial metabolomics, which showed me how powerful chemical analysis can be for understanding biology. These experiences shaped how I see analytical chemistry: not only as instruments and data, but as a way to understand life through molecules. Now, at Afekta, I apply this interest to poultry health.
 
-## **What disease models do we study?**
+### **What disease models do we study?**
 
 In my PhD, I work with two main poultry disease models. We chose these models because they represent different types of gut-related disturbance. One allows us to study infection and vaccination, while the other allows us to study viral infection together with antibiotic use. Together, they help us ask how different challenges change the host, the microbiota, and the chemical signals between them.
 
@@ -48,7 +54,7 @@ The second disease model focuses on fowl adenovirus infection and antibiotic use
 
 Together, these models allow us to study how different biological challenges influence the host, the microbiota, and the chemical signals that connect them.
 
-## **How does HoloGen bring the pieces together?**
+### **How does HoloGen bring the pieces together?**
 
 This is where the wider HoloGen approach becomes especially valuable. Metabolomics gives us information about small molecules, but it is only one layer of biology. Other approaches can add more pieces to the puzzle.
 
@@ -56,7 +62,7 @@ Metagenomics can tell us which microbes are present by reading their DNA. Metatr
 
 By bringing these layers together, we can begin to see a more complete picture. For example, if certain microbes change, microbial metabolites decrease, and the birds also show stronger disease signs, we can start to ask how these events may be connected. One dataset alone cannot explain everything, but each layer helps us understand the host-microbe relationship more clearly.
 
-## **What makes this project meaningful to me?**
+### **What makes this project meaningful to me?**
 
 For me personally, this project is also a journey into a new field. I came into HoloGen with a background in analytical chemistry and mass spectrometry, but host-microbe interactions and multi-omics were still new to me. Learning how to connect chemical data with microbiology, animal disease, and animal welfare has been challenging, but also very rewarding.
 
