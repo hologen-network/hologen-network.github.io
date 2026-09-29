@@ -1,15 +1,21 @@
 ---
 layout: post
 title: "Illuminating hologenomics: how I want to light up the microbiome"
-date: 2026-09-30
+date: 2026-10-01
 author: Zoé Melanie Horisberger
-published: false
+published: true
+summary: >-
+  What if we could see exactly where microbes live and interact inside the gut? 
+
+  This blog explores how fluorescent probes and microscopy can create colourful
+  maps of microbial communities, revealing how their spatial organization shapes
+  interactions with each other and their host.
 ---
-# Microorganisms all over our body
+### Microorganisms all over our body
 
 We’re never alone, and that’s a good thing. Many different microorganisms including bacteria, viruses and fungi live on and inside our bodies. These microorganisms are called the microbiome. Almost all parts of our body, such as the gastrointestinal tract, host their own specific microbiome which fulfils important functions. In our guts for example, the microbiome can assist in digestion and help us absorb nutrients. The organisms that make up the microbiomes are as diverse as the different cells in our body and can actively impact our health. A complete lack of beneficial microbiome components, presence of harmful microorganisms or an imbalance of specific species can negatively impact our general health. The goal of the HoloGen project is to understand how these microbial communities interact with their host, which can be us humans or any other animal, and how those interactions shape overall health.
 
-# Shining light on small interactions
+### Shining light on small interactions
 
 ![image.png](/assets/uploads/dc3blog1figure1.jpg)
 
@@ -23,7 +29,7 @@ Probes are specific to the microbes or the hosts intestinal cells by targeting t
 
 The tricky part is designing each probe in a way that it will only bind to a specific part of the genome of the microorganism I want to light up. I use computational tools to scan the genetic information of all microbiome components and identify short DNA sequences that are unique to each species. These sequences will become the targets of the probes. Once I have the FISH probes designed for all the microbiome components as well as the host intestinal cells, I can start imaging actual biological samples. With the help of veterinarian collaborators, which provide me with gut samples of agricultural animals, I hope to study the interaction of the microbiome with its host using my colourful fluorescent probes.
 
-# Why bother with this?
+### Why bother with this?
 
 Currently, most microbiome studies focus on which microorganisms are present in a microbiome and how much of each species there is. But the crucial piece missing in these studies is identifying where exactly each species is located within the sample.
 
