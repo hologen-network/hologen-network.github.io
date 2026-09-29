@@ -3,10 +3,13 @@ layout: post
 title: "Tiny Travellers: A Journey Through the Infant Gut"
 date: 2026-09-30
 author: Chujun Zhang
-summary: What happens inside a baby’s gut during the early years of life? A
-  microscopic ecosystem is taking shape — microbes arrive, compete, cooperate,
+summary: >-
+  What happens inside a baby’s gut during the early years of life? 
+
+  A microscopic ecosystem is taking shape — microbes arrive, compete, cooperate,
   and adapt to their environment. Among the key players are Bifidobacterium,
-  early-life specialists with remarkable abilities to thrive in the infant gut.
+  early-life specialists with remarkable abilities to thrive in the infant gut. 
+
   This blog explores how these tiny travellers shape the developing gut
   microbiome, why they differ around the world, and how understanding these
   differences could one day help us design better microbial interventions for
