@@ -2,9 +2,15 @@
 layout: post
 title: What pig gut bacteria can teach us about feeding, protecting and
   understanding the world
-date: 2026-09-30
+date: 2026-10-01
 author: Aikaterini Katirtzoglou
-published: false
+published: true
+summary: >-
+  Could the microbes inside pigs help make farming more sustainable? 
+
+  This blog explores how genetics, diet, and domestication shape the pig gut
+  microbiome, and whether understanding these hidden microbial communities could
+  improve feed efficiency, animal health, and sustainable farming.
 ---
 When one thinks about making farming more sustainable, they probably don't picture bacteria. But deep inside the intestines of every pig on every farm around the world, there's an invisible ecosystem doing a very important job….understanding it could help us feed a growing planet more sustainably. That's what I've been exploring for my PhD: the secret relationship between what pigs eat, the trillions of microbes living in their guts, and the pigs themselves.
 
