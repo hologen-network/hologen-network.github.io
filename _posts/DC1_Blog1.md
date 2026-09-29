@@ -2,7 +2,7 @@
 layout: post
 title: "Tiny Microbes, Big Impact: How the Gut Microbiome Could Shape
   Sustainable Agriculture"
-date: 2026-09-30
+date: 2026-10-01
 author: Veronica Quarato
 image: /assets/uploads/dc1blog1figure1.png
 image_caption: This figure illustrates how my PhD project integrates information
@@ -11,7 +11,7 @@ image_caption: This figure illustrates how my PhD project integrates information
   the animal and its gut microbes constantly influence each other, and
   uncovering these interactions is essential to understanding how diet shapes
   health and sustainability.
-published: false
+published: true
 ---
 ### ***What if tiny microbes could help make agriculture more sustainable?***
 
